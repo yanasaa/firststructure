@@ -8,6 +8,10 @@
     box-shadow: 1px 1px 2px 0px rgba(255, 255, 255, 0.25);
     backdrop-filter: blur(12.5px);
     margin-bottom: 20px;
+    &:hover{
+        background: rgba(88, 64, 82, 0.25);
+        box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+    }
 }
 .article-preview__image {
     width:fit-content
