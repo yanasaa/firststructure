@@ -482,13 +482,10 @@ h3 {
   border-radius: 4px;
 }
 .button_bordered {
-  background-color: lightgray;
-  border: 1px solid lightgray;
-  color: white;
-}
-.button_bordered:hover {
-  background: lightgray;
-  border-color: lightgray;
+  background-color: #EDDCE4;
+  border: 1px solid #d9a1c6;
+  color: #ad2e95;
+  font-weight: 400;
 }
 .button_colored {
   background-color: #ad2e95;
@@ -545,7 +542,7 @@ h3 {
 }
 
 .logo.header__logo {
-  margin: 15px 35% 10px;
+  margin: 15px auto;
 }
 
 .header__wrapper a {
@@ -665,6 +662,9 @@ h3 {
 }
 .advantage_user {
   background: #A1C2D1;
+}
+.advantage .advantage__glass {
+  padding: 50px;
 }
 
 .advantage__title {
