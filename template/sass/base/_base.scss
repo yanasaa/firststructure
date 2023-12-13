@@ -6,6 +6,8 @@ body {
   box-sizing: border-box;
   @include font(1.6rem, 2.6rem, $weight: normal);
   @extend %font-prim;
+  max-width: 1440px;
+  margin: auto;
 }
 
 h1 {
@@ -17,7 +19,10 @@ h1 {
 }
 
 h2 {
-  @include font(3.4rem, 4.6rem);
+  @include font(3rem, 4rem);
+  color: $color-complimentary;
+  text-align: center;
+  margin-bottom: 50px;
 }
 
 h3 {

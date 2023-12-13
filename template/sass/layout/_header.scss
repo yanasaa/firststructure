@@ -1,10 +1,9 @@
 .header {
   background: $color-primary;
-  // background-color: #c6bbc3;
+  background-color: $color-bg-light;
   padding: 0 40PX;
 }
 .header__wrapper {
-  
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -15,7 +14,7 @@
   margin-right: auto;
 }
 .logo.header__logo {
-  margin: 15px 35% 10px;
+  margin: 15px auto;
 }
 
 .header__wrapper a {

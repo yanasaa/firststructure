@@ -1,6 +1,38 @@
-
+.advantages {
+ margin-bottom: 200px;
+}
 
 .advantages__wrapper {
-  padding: 30px;
-  background-color: $color-secondary;
-}
+  background-image: url('../images/backgrounds/advantages-bg.png');
+  background-size:cover;
+  background-repeat: no-repeat;
+  padding: 0 30px;
+  margin-top: 50px;
+ }
+
+ .advantage {
+  max-width: 32%;
+  padding: 50px 45px;
+  text-align: center;
+  &_author {
+    background: $color-primary;
+  }
+  &_user {
+    background: $color-secondary;
+  }
+
+  .advantage__glass {
+    padding: 50px;
+  }
+  
+ }
+
+ .advantage__title {
+  @include font(2.4rem, 3.4rem, $weight: 400);
+  color: $color-text-dark;
+ }
+ .advantage__text {
+  
+  color: $color-light;
+  @include font(2.4rem, 3.4rem, $weight: 400);
+ }

@@ -9,6 +9,6 @@
     color: $color-complimentary;
     @extend %transition;
     &:hover {
-        color: $color-light;
+        text-shadow: 0px 4px 4px $color-primary;
     }
 }
