@@ -422,6 +422,7 @@ body {
   font-style: normal;
   max-width: 1440px;
   margin: auto;
+  background-color: #EDDCE4;
 }
 
 h1 {
@@ -605,11 +606,11 @@ h3 {
 .hero {
   background-image: url("../images/backgrounds/mainbg-1.png");
   background-size: cover;
+  margin-bottom: 250px;
 }
 
 .hero__wrapper {
-  margin-bottom: 200px;
-  padding: 120px 0;
+  padding: 120px 0 150px;
 }
 
 .hero__glass {
@@ -657,12 +658,11 @@ h3 {
   background-size: cover;
   background-repeat: no-repeat;
   padding: 0 30px;
-  margin-top: 50px;
 }
 
 .advantage {
   max-width: 32%;
-  padding: 50px 45px;
+  padding: 80px 25px 45px;
   text-align: center;
 }
 .advantage_author {
@@ -671,9 +671,6 @@ h3 {
 .advantage_user {
   background: #A1C2D1;
 }
-.advantage .advantage__glass {
-  padding: 50px;
-}
 
 .advantage__title {
   font-size: 2.4rem;
@@ -681,9 +678,12 @@ h3 {
   font-weight: 400;
   font-style: normal;
   color: #050002;
+  margin-bottom: 30px;
 }
 
 .advantage__text {
+  margin: 0;
+  padding: 20px 10px;
   color: white;
   font-size: 2.4rem;
   line-height: 3.4rem;
