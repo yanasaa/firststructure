@@ -6,13 +6,11 @@
     @extend %transition;
 
     &_bordered {
-        background-color: $color-hover;
-        border: 1px solid $color-border;
-        color: $color-light;
-        &:hover {
-          background: $color-hover;
-          border-color: $color-hover;
-        }
+        background-color: $color-bg-light;
+        border: 1px solid $color-primary;
+        color: $color-complimentary;
+        font-weight: 400;
+      
       }
     
       &_colored {
