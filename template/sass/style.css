@@ -598,7 +598,7 @@ h3 {
 }
 
 .hero {
-  background-image: url("../../../template/src/img/backgrounds/mainbg-1.png");
+  background-image: url("../../../template/images/backgrounds/mainbg-1.png");
   background-size: cover;
 }
 
@@ -638,7 +638,7 @@ h3 {
 }
 
 .advantages {
-  background-image: url("../../../template/src/img/backgrounds/advantages-bg.png");
+  background-image: url("../../../template/images/backgrounds/advantages-bg.png");
   background-size: cover;
   background-repeat: no-repeat;
 }
