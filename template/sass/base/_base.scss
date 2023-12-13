@@ -17,7 +17,9 @@ h1 {
 }
 
 h2 {
-  @include font(3.4rem, 4.6rem);
+  @include font(3rem, 4rem);
+  color: $color-complimentary;
+  text-align: center;
 }
 
 h3 {
