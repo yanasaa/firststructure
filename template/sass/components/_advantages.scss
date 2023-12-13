@@ -1,6 +1,10 @@
-
+.advantages {
+  background-image: url('../../../template/src/img/backgrounds/advantages-bg.png');
+  background-size:cover;
+  background-repeat: no-repeat;
+}
 
 .advantages__wrapper {
   padding: 30px;
-  background-color: $color-secondary;
+ 
 }
