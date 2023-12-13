@@ -681,10 +681,11 @@ h3 {
 }
 
 .articles__wrapper {
-  background-image: url("../../../template/images/backgrounds/articlebg.PNG");
+  background-image: url("../images/backgrounds/articlebg.PNG");
   background-size: cover;
   padding: 50px;
   gap: 10px 10px;
+  margin-bottom: 200px;
 }
 
 .onboarding__wrapper {
