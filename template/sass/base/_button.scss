@@ -8,18 +8,16 @@
     &_bordered {
         background-color: $color-bg-light;
         border: 1px solid $color-primary;
-        color: $color-complimentary;
-        font-weight: 400;
-      
+        color:  $color-primary;     
       }
     
       &_colored {
-        background-color: $color-complimentary;
+        background-color:  $color-primary;
         color: $color-light;
         border: 1px solid $color-complimentary;
         &:hover {
-            background: $color-primary;
-            border-color: $color-primary;
+            background: $color-hovered-primary;
+            border-color: $color-hovered-primary;
         }
       }
 }

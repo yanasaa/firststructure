@@ -451,7 +451,6 @@ h3 {
   font-weight: 700;
   font-style: normal;
   text-align: center;
-  color: #ad2e95;
   margin: 0;
 }
 
@@ -483,9 +482,8 @@ h3 {
 }
 .button_bordered {
   background-color: #EDDCE4;
-  border: 1px solid #d9a1c6;
+  border: 1px solid #ad2e95;
   color: #ad2e95;
-  font-weight: 400;
 }
 .button_colored {
   background-color: #ad2e95;
@@ -493,8 +491,8 @@ h3 {
   border: 1px solid #ad2e95;
 }
 .button_colored:hover {
-  background: #d9a1c6;
-  border-color: #d9a1c6;
+  background: rgba(173, 46, 149, 0.7);
+  border-color: rgba(173, 46, 149, 0.7);
 }
 
 .icon {
@@ -504,8 +502,8 @@ h3 {
 .navigation__icon {
   width: 12px;
   height: 12px;
-  background-image: url("../../src/img/icons/navIcon.svg");
-  margin-left: 4px;
+  background-image: url("../images/icons/navIcon.svg");
+  margin-left: 5px;
 }
 
 .logo {
@@ -516,7 +514,7 @@ h3 {
 }
 
 .logo-color {
-  fill: #ad2e95 !important;
+  fill: #ad2e95;
 }
 
 .wrapper {
@@ -526,7 +524,6 @@ h3 {
 }
 
 .header {
-  background: #d9a1c6;
   background-color: #EDDCE4;
   padding: 0 40PX;
 }
@@ -542,11 +539,16 @@ h3 {
 }
 
 .logo.header__logo {
-  margin: 15px auto;
+  margin: 15px auto 10px;
 }
 
 .header__wrapper a {
   flex-grow: 1;
+}
+
+.header__buttons {
+  display: flex;
+  gap: 30px;
 }
 
 .layout-6-columns {
@@ -595,7 +597,7 @@ h3 {
 }
 
 .glass {
-  border-radius: 16.551px;
+  border-radius: 16px;
   background: rgba(237, 220, 228, 0.25);
   backdrop-filter: blur(11.8754043579px);
 }
@@ -607,22 +609,28 @@ h3 {
 
 .hero__wrapper {
   margin-bottom: 200px;
-  padding: 145px 0;
+  padding: 120px 0;
 }
 
 .hero__glass {
-  padding: 0 36px;
+  border-radius: 16px;
   width: fit-content;
   position: relative;
 }
 
 .hero__content {
-  max-width: 491px;
+  padding: 0 36px;
+  max-width: 563px;
   text-align: left;
 }
 
 .hero__title {
+  border-radius: 16px 16px 0 0;
+  padding: 10px 40px;
   margin: 0;
+  color: #EDDCE4;
+  background: #ad2e95;
+  width: 100%;
 }
 
 .hero__text {
@@ -708,7 +716,7 @@ h3 {
   border-radius: 5px;
 }
 .contact-us__form input:focus, .contact-us__form textarea:focus {
-  border-color: #d9a1c6;
+  border-color: #ad2e95;
   outline: none;
 }
 
@@ -724,7 +732,7 @@ textarea {
 
 .search-bar {
   border: 1px solid #ad2e95;
-  background-color: #EDDCE4;
+  background-color: #ad2e95;
   display: flex;
   margin: 0 auto;
 }
@@ -754,7 +762,9 @@ textarea {
 }
 
 .tag {
+  cursor: pointer;
   padding: 15px 20px;
+  color: #ad2e95;
   background-color: #EDDCE4;
   border-radius: 5px;
   box-shadow: 2px 2px 4px 0px rgba(173, 46, 149, 0.25);
@@ -764,7 +774,8 @@ textarea {
   font-style: normal;
 }
 .tag:hover {
-  background-color: #f7d5f0;
+  background-color: #ad2e95;
+  color: #EDDCE4;
 }
 
 .article-preview {
