@@ -1,0 +1,11 @@
+.logo {
+    
+    display: block;
+    background-image: url(../../src/img/icons/logo.svg);
+    width: 67px;
+    height: 87px;
+}
+
+.logo-color {
+    fill: $color-complimentary !important;
+}

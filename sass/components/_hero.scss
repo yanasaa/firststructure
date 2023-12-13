@@ -1,0 +1,37 @@
+.hero {
+  background-image: url('../../src/img/backgrounds/mainbg-1.png');
+  background-size: cover;
+}
+
+.hero__wrapper {
+  margin-bottom: 200px;
+  padding: 145px 0;
+}
+
+.hero__glass {
+  padding: 0 36px;
+  width: fit-content;
+  position: relative;
+}
+
+.hero__content {
+  max-width: 491px;
+  text-align: left;
+}
+
+.hero__title {
+  margin: 0;
+}
+
+.hero__text {
+  @include font(2.4rem, 3.2rem, $weight: 700);
+  color: $color-light;
+  margin: 0;
+  padding: 15px 0 30px;
+}
+
+
+.hero__tags_layout {
+ gap:31px;
+ padding: 50px 0 20px;
+}

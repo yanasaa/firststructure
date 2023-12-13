@@ -1,0 +1,11 @@
+.tag {
+    padding: 15px 20px;
+    background-color: $color-bg-light;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px 0px rgba(173, 46, 149, 0.25);
+    @include font(1.8rem);
+    @extend %transition;
+    &:hover {
+        background-color: $color-hovered-primary;
+    }
+}

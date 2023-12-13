@@ -1,0 +1,33 @@
+.search-bar {
+    border: 1px solid $color-complimentary;
+    background-color: $color-bg-light;
+    display: flex;
+    margin: 0 auto;
+    
+}
+
+.search__input {
+    background-color: $color-bg-light;
+    border: none;
+    outline: none;
+    flex-grow: 1;
+    padding: 5px 10px;
+    @extend %font-sec;
+}
+
+.search__icons {
+    background-color: $color-complimentary;
+  
+   text-align: center;
+}
+
+.search__icon {
+    
+    display: block;
+    width: 15px;
+    height: 15px;
+    background-image: url('../../src/img/icons/Vector.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 15px;
+}

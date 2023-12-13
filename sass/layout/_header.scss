@@ -1,0 +1,22 @@
+.header {
+  background: $color-primary;
+  padding: 0 40PX;
+}
+.header__wrapper {
+  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+.header__navigation {
+  margin-right: auto;
+}
+.logo.header__logo {
+  margin: 15px 35% 10px;
+}
+
+.header__wrapper a {
+  flex-grow: 1;
+}

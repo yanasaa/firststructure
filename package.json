@@ -1,0 +1,20 @@
+{
+  "name": "firststructure",
+  "version": "1.0.0",
+  "description": "template, html, sass",
+  "main": "index.js",
+  "scripts": {
+    "style": "sass --watch sass/style.scss sass/style.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "yana",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.69.5"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github/yanasaa/template.git"
+  }
+}

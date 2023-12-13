@@ -1,0 +1,14 @@
+.navigation {
+   display: flex; 
+   gap: 40px;
+}
+
+.navigation__link {
+    @include font(1.8rem, 2.4rem );
+    cursor: pointer;
+    color: $color-complimentary;
+    @extend %transition;
+    &:hover {
+        color: $color-light;
+    }
+}
