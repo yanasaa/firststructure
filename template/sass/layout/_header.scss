@@ -1,5 +1,4 @@
 .header {
-  background: $color-primary;
   background-color: $color-bg-light;
   padding: 0 40PX;
 }
@@ -14,9 +13,13 @@
   margin-right: auto;
 }
 .logo.header__logo {
-  margin: 15px auto;
+  margin: 15px auto 10px;
 }
 
 .header__wrapper a {
   flex-grow: 1;
+}
+.header__buttons {
+  display: flex;
+  gap: 30px;
 }

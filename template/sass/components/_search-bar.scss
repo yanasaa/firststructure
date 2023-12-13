@@ -1,6 +1,6 @@
 .search-bar {
-    border: 1px solid $color-complimentary;
-    background-color: $color-bg-light;
+    border: 1px solid $color-primary;
+    background-color: $color-primary;
     display: flex;
     margin: 0 auto;
     
@@ -16,13 +16,12 @@
 }
 
 .search__icons {
-    background-color: $color-complimentary;
+    background-color: $color-primary;
   cursor: pointer;
    text-align: center;
 }
 
 .search__icon {
-    
     display: block;
     width: 15px;
     height: 15px;

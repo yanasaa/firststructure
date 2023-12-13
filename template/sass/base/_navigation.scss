@@ -6,9 +6,9 @@
 .navigation__link {
     @include font(1.8rem, 2.4rem );
     cursor: pointer;
-    color: $color-complimentary;
+    color: $color-primary;
     @extend %transition;
     &:hover {
-        text-shadow: 0px 4px 4px $color-primary;
+        text-shadow: 0px 4px 4px $color-primary-light;
     }
 }

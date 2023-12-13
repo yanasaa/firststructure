@@ -5,22 +5,29 @@
 
 .hero__wrapper {
   margin-bottom: 200px;
-  padding: 145px 0;
+  padding: 120px 0;
 }
 
 .hero__glass {
-  padding: 0 36px;
+  border-radius: 16px;
+  
   width: fit-content;
   position: relative;
 }
 
 .hero__content {
-  max-width: 491px;
+  padding: 0 36px;
+  max-width: 563px;
   text-align: left;
 }
 
 .hero__title {
+  border-radius: 16px 16px 0 0;
+  padding: 10px 40px;
   margin: 0;
+  color: $color-bg-light;
+  background: $color-complimentary;
+  width: 100%;
 }
 
 .hero__text {
