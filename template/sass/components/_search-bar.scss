@@ -17,7 +17,7 @@
 
 .search__icons {
     background-color: $color-complimentary;
-  
+  cursor: pointer;
    text-align: center;
 }
 
@@ -26,7 +26,7 @@
     display: block;
     width: 15px;
     height: 15px;
-    background-image: url('../../src/img/icons/Vector.png');
+    background-image: url('../../../template/src/img/icons/Vector.png');
     background-repeat: no-repeat;
     background-size: contain;
     margin: 15px;

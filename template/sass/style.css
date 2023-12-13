@@ -508,7 +508,7 @@ h3 {
 
 .logo {
   display: block;
-  background-image: url(../../src/img/icons/logo.svg);
+  background-image: url(../../../template/src/img/icons/logo.svg);
   width: 67px;
   height: 87px;
 }
@@ -598,7 +598,7 @@ h3 {
 }
 
 .hero {
-  background-image: url("../../src/img/backgrounds/mainbg-1.png");
+  background-image: url("../../../template/src/img/backgrounds/mainbg-1.png");
   background-size: cover;
 }
 
@@ -694,6 +694,7 @@ textarea {
 
 .search__icons {
   background-color: #ad2e95;
+  cursor: pointer;
   text-align: center;
 }
 
@@ -701,7 +702,7 @@ textarea {
   display: block;
   width: 15px;
   height: 15px;
-  background-image: url("../../src/img/icons/Vector.png");
+  background-image: url("../../../template/src/img/icons/Vector.png");
   background-repeat: no-repeat;
   background-size: contain;
   margin: 15px;
