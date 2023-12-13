@@ -6,6 +6,8 @@ body {
   box-sizing: border-box;
   @include font(1.6rem, 2.6rem, $weight: normal);
   @extend %font-prim;
+  max-width: 1440px;
+  margin: auto;
 }
 
 h1 {
