@@ -14,8 +14,9 @@
       &_colored {
         background-color:  $color-primary;
         color: $color-light;
-        border: 1px solid $color-complimentary;
+        border: 1px solid $color-primary;
         &:hover {
+          
             background: $color-hovered-primary;
             border-color: $color-hovered-primary;
         }
